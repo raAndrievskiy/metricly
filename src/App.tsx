@@ -1,7 +1,7 @@
-import './App.scss'
+import { Dashboard } from './pages'
 
-function App() {
-  return <>123</>
+const App = () => {
+  return <Dashboard />
 }
 
 export default App

@@ -1,0 +1,25 @@
+@import './reset.scss';
+
+*,
+*::before,
+*::after {
+  // -webkit-font-smoothing: antialiased;
+  // font-smooth: antialiased;
+  // font-synthesis: none;
+}
+
+html,
+body,
+#root {
+
+}
+
+body.dark {
+  
+}
+
+input {
+  border: none;
+  background: none;
+  outline: none;
+}
