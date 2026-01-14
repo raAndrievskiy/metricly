@@ -1,7 +1,13 @@
+import { Header } from './components'
 import { Dashboard } from './pages'
 
 const App = () => {
-  return <Dashboard />
+  return (
+    <>
+      <Header />
+      <Dashboard />
+    </>
+  )
 }
 
 export default App
