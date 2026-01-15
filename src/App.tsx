@@ -1,12 +1,13 @@
-import { Header } from './components'
+import { Header, Sidebar } from './components'
 import { Dashboard } from './pages'
 
 const App = () => {
   return (
-    <>
-      <Header />
+    <div className="app">
+      <Sidebar />
+      {/* <Header /> */}
       <Dashboard />
-    </>
+    </div>
   )
 }
 
