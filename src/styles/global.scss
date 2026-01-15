@@ -1,13 +1,5 @@
 @import './reset.scss';
 
-*,
-*::before,
-*::after {
-  // -webkit-font-smoothing: antialiased;
-  // font-smooth: antialiased;
-  // font-synthesis: none;
-}
-
 html,
 body,
 #root {
@@ -22,4 +14,15 @@ input {
   border: none;
   background: none;
   outline: none;
+}
+
+.container {
+  width: 100%;
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+span {
+  display: block;
 }
