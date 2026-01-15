@@ -16,19 +16,19 @@ input {
   outline: none;
 }
 
-.container {
-  width: 100%;
-  max-width: 1300px;
-  margin: 0 auto;
-  padding: 0 30px;
-}
-
 span {
   display: block;
 }
 
 a {
   text-decoration: none;
+}
+
+.container {
+  width: 100%;
+  max-width: calc(1440px - 256px);
+  margin: 0 auto;
+  padding: 0 30px;
 }
 
 .app {

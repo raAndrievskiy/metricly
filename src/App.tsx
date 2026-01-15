@@ -5,7 +5,7 @@ const App = () => {
   return (
     <div className="app">
       <Sidebar />
-      {/* <Header /> */}
+      <Header />
       <Dashboard />
     </div>
   )
