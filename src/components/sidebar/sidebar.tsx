@@ -10,8 +10,8 @@ export const Sidebar = () => {
         Metricly
       </a>
       <div className={styles.items}>
-        {sidebarItem.map((item) => (
-          <a href={item.link} className={cn(styles.item, 'active')}>
+        {sidebarItem.map((item, index) => (
+          <a href={item.link} className={cn(styles.item, 'active')} key={index}>
             {(item.icon, item.text)}
           </a>
         ))}

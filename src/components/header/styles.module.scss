@@ -2,9 +2,9 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #fff;
+  background-color: var(--color-white);
   padding: 15px 0;
-  border-bottom: 1px solid #E5E7EB;
+  border-bottom: 1px solid var(--border-color);
   position: absolute;
   top: 0;
   right: 0;
@@ -39,7 +39,7 @@
   background-color: #F3F4F6;
   padding: 0 30px;
   border-radius: 5px;
-  border: 1px solid #E5E7EB;
+  border: 1px solid var(--border-color);
   display: flex;
   align-items: center;
 }
@@ -47,7 +47,7 @@
 .btn_theme {
   width: 38px;
   height: 38px;
-  border: 1px solid #E5E7EB;
+  border: 1px solid var(--border-color);
   background-color: #F3F4F6;
   border-radius: 5px;
   margin: 0 15px;

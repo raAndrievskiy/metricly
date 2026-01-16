@@ -5,15 +5,15 @@
   top: 0;
   left: 0;
   z-index: 1;
-  background-color: #fff;
-  border-right: 1px solid #E5E7EB;
+  background-color: var(--color-white);
+  border-right: 1px solid var(--border-color);
 }
 
 .logo {
   color: #000;
   display: block;
   padding: 15px;
-  border-bottom: 1px solid #E5E7EB;
+  border-bottom: 1px solid var(--border-color);
 }
 
 .items {
@@ -29,6 +29,6 @@
 
 .item:hover {
   background-color: #155DFC;
-  color: #fff;
+  color: var(--color-white);
   transition: 0.2s;
 }
