@@ -1,27 +1,34 @@
-import { Users, UserCheck, DollarSign, TrendingDown } from 'lucide-react'
+import { Users, UserCheck, DollarSign, TrendingDown, type LucideIcon } from 'lucide-react'
 
-export const card = [
+interface CardProps {
+  title: string;
+  number: number;
+  change: number;
+  icon: LucideIcon;
+}
+
+export const card: CardProps[] = [
   {
-    text: 'Всего пользователей',
-    indicator: 12,
+    title: 'Всего пользователей',
+    change: 12,
     number: 12543,
     icon: Users,
   },
   {
-    text: 'Активных пользователей',
-    indicator: -18,
+    title: 'Активных пользователей',
+    change: -18,
     number: 12543,
     icon: UserCheck,
   },
   {
-    text: 'Месячный доход',
-    indicator: 9,
+    title: 'Месячный доход',
+    change: 9,
     number: 12543,
     icon: DollarSign,
   },
   {
-    text: 'Отток клиентов',
-    indicator: -2,
+    title: 'Отток клиентов',
+    change: -2,
     number: 12543,
     icon: TrendingDown,
   },
